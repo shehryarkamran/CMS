@@ -1,0 +1,8 @@
+﻿body {
+}
+.workArea {
+	border-top: solid 1px silver;
+	border-left: solid 1px silver;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+}
