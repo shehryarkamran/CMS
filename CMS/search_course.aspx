@@ -1,60 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="search_course.aspx.cs" Inherits="search_course" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="search_course.aspx.cs" Inherits="search_course" MasterPageFile="~/Home.master"%>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-<style type="text/css">
-        #div_side {
-            float:right;
-            margin-top:100px;
-            width: 145px;
-            font-weight: 600;
-            font-size: x-large;
-		height: 205px;
-	}
-		.workArea
-{
-    width: 350px;
-    border-top: solid 1px silver;
-    border-left: solid 1px silver;
-    border-right: solid 1px black;
-    border-bottom: solid 1px black;
-}
-    </style>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div style="height: 368px">
-		<div id="div_side">
-         <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large" Text="Entry Form"></asp:Label>
-    
-         <br />
-         <asp:Button ID="Button2" runat="server" Text="Student Entry" Width="136px" OnClick="Button2_Click" />
-         <br />
-         <asp:Button ID="Button3" runat="server" Text="Course Entry" Width="136px" OnClick="Button3_Click" />
-         <br />
-         <asp:Button ID="Button4" runat="server" Text="Semester Entry" Width="136px" OnClick="Button4_Click" />
-         <br />
-         <asp:Button ID="Button5" runat="server" Text="Employee Entry" Width="136px" OnClick="Button5_Click" />
-         <br />
-         <asp:Button ID="Button6" runat="server" Text="Program Entry" Width="136px" OnClick="Button6_Click" Height="27px" />
-            <br />
-         <asp:Label ID="Label5" runat="server" style="font-weight: 700; font-size: x-large" Text="Search Form"></asp:Label>
-    
-         <br />
-         <asp:Button ID="Button7" runat="server" Text="Search Course" Width="136px" OnClick="Button7_Click" />
-         <br />
-         <asp:Button ID="Button8" runat="server" Text="Search Student" Width="136px" OnClick="Button8_Click" />
-         <br />
-			 <asp:Button ID="Button9" runat="server" Text="Student Enrollment" Width="136px" OnClick="Button9_Click" />
-         <br />
-         </div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<asp:Content ID = "Content1"  ContentPlaceHolderID = "MainContentPlaceHolder1"  runat = "Server" >
+	<link href="StyleSheet.css" rel="stylesheet" />
+	<div style="height: 368px">
     <asp:Label ID="Label4" runat="server" style="font-weight: 700; font-size: x-large" Text="Courses Search"></asp:Label>
 		<br />
-        <br />
+		<br />
         <asp:Label ID="Label1" runat="server" style="font-weight: 700" Text="Select Discpiline" Font-Bold="true"
             ForeColor="Navy"
             Font-Size="Large"></asp:Label>
@@ -88,6 +39,4 @@
         <br />
         &nbsp;<asp:TextBox ID="TextBox2" runat="server" Width="145px" Height="22px" cssclass="workArea" ></asp:TextBox>
     </div>
-    </form>
-</body>
-</html>
+    </asp:Content>

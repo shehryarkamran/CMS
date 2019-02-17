@@ -1,56 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="student_enrollment.aspx.cs" Inherits="student_enrollment" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="student_enrollment.aspx.cs" Inherits="student_enrollment" MasterPageFile="~/Home.master"%>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+<asp:Content ID = "Content1"  ContentPlaceHolderID = "MainContentPlaceHolder1"  runat = "Server" >
 	<link href="StyleSheet.css" rel="stylesheet" />
-	<style type="text/css">
-		.auto-style1 {
-			height: 650px;
-		}
-		#div_side {
-            float:right;
-            margin-top:100px;
-            width: 145px;
-            font-weight: 600;
-            font-size: x-large;
-		height: 262px;
-	}
-	</style>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div class="auto-style1">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="auto-style1" style="height: 660px">
         <asp:Label ID="Label6" runat="server" Text="Courses of Student" style="font-weight: 700; text-align: center; font-size: x-large;"></asp:Label>
 			<br />
 			<br />
-			<div id="div_side">
-         <asp:Label ID="Label7" runat="server" style="font-weight: 700; font-size: x-large" Text="Entry Form"></asp:Label>
-    
-         <br />
-         <asp:Button ID="Button2" runat="server" Text="Student Entry" Width="136px" OnClick="Button2_Click" />
-         <br />
-         <asp:Button ID="Button3" runat="server" Text="Course Entry" Width="136px" OnClick="Button3_Click" />
-         <br />
-         <asp:Button ID="Button4" runat="server" Text="Semester Entry" Width="136px" OnClick="Button4_Click" />
-         <br />
-         <asp:Button ID="Button5" runat="server" Text="Employee Entry" Width="136px" OnClick="Button5_Click" />
-         <br />
-         <asp:Button ID="Button6" runat="server" Text="Program Entry" Width="136px" OnClick="Button6_Click" Height="27px" />
-            <br />
-         <asp:Label ID="Label8" runat="server" style="font-weight: 700; font-size: x-large" Text="Search Form"></asp:Label>
-    
-         <br />
-         <asp:Button ID="Button7" runat="server" Text="Search Course" Width="136px" OnClick="Button7_Click" />
-         <br />
-         <asp:Button ID="Button8" runat="server" Text="Search Student" Width="136px" OnClick="Button8_Click" />
-         <br />
-			 <asp:Button ID="Button9" runat="server" Text="Student Enrollment" Width="136px" OnClick="Button9_Click" />
-         <br />
-         </div>
         <asp:Label ID="Label1" runat="server" Text="Reg no" Font-Bold="true"
             ForeColor="Navy"
             Font-Size="Large"></asp:Label>
@@ -157,6 +112,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<asp:Button ID="Button12" runat="server" Text="Refresh" Width="112px" OnClick="Button12_Click" BackColor="Lime" BorderColor="#CC6600" BorderStyle="Solid" ForeColor="Black" />
         </div>
-    </form>
-</body>
-</html>
+    </asp:Content>
