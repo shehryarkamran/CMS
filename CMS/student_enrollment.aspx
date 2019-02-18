@@ -3,7 +3,7 @@
 <asp:Content ID = "Content1"  ContentPlaceHolderID = "MainContentPlaceHolder1"  runat = "Server" >
 	<link href="StyleSheet.css" rel="stylesheet" />
         <div class="auto-style1" style="height: 660px">
-        <asp:Label ID="Label6" runat="server" Text="Courses of Student" style="font-weight: 700; text-align: center; font-size: x-large;"></asp:Label>
+        <asp:Label ID="Label6" runat="server" Text="Student Enrollment" style="font-weight: 700; text-align: center; font-size: x-large;"></asp:Label>
 			<br />
 			<br />
         <asp:Label ID="Label1" runat="server" Text="Reg no" Font-Bold="true"

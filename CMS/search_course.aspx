@@ -12,7 +12,7 @@
 &nbsp;&nbsp;
         &nbsp;<asp:DropDownList ID="DropDownList1" runat="server">
 			<asp:ListItem>BSCS</asp:ListItem>
-			<asp:ListItem>BIT</asp:ListItem>
+			<asp:ListItem>BSIT</asp:ListItem>
 			<asp:ListItem>MCS</asp:ListItem>
 			<asp:ListItem>MIT</asp:ListItem>
 		</asp:DropDownList>

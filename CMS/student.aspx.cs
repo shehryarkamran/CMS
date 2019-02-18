@@ -50,7 +50,4 @@ public partial class student : System.Web.UI.Page
 	{
 
 	}
-	
-
-	
 }
